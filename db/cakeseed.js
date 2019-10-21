@@ -1,17 +1,15 @@
-const Cakes = require('');
-const cake = require('');
-
+const Dessert = require('../models/Dessert');
+const cake = require('./CakeSeeds.json');
 
 // clear the database of all cheerups insert original seeds
 
-
-Cakes.deleteMany({})
-    .then(() => {
-        console.log('old cheers gone sir');
-        return Cakes.insertMany(cake);
-        // create cheerup files from seeds
-    })
-    .then(() => {
-        console.log(' ㋡ cake recpz 🎂 back to originals 💕');
-        process.exit();
-    });
+Dessert.deleteMany({})
+	.then(() => {
+		console.log('old cakes gone sir');
+		return Dessert.insertMany(cake);
+		// create cake files from seeds
+	})
+	.then(() => {
+		console.log(' ㋡ cake recpz 🎂 back to originals 💕');
+		process.exit();
+	});

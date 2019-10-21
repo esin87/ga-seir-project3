@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 });
 
 //create a new dessert
-router.post('/new', (req, res) => {
+router.post('/', (req, res) => {
 	const newDessert = req.body;
 	Dessert.create(newDessert).then(created => {
 		res.json(created);
@@ -19,20 +19,20 @@ router.post('/new', (req, res) => {
 });
 
 //get dessert by name
-router.get('/:name', (req, res) => {
-	const dessertName = req.params.name;
-	Dessert.findOne({ name: dessertName }).then(dessert => {
+router.get('/:title', (req, res) => {
+	const dessertTitle = req.params.title;
+	Dessert.findOne({ title: dessertTitle }).then(dessert => {
 		res.json(dessert);
 	});
 });
 
 //update dessert
-router.put('edit/:id', (req, res) => {
-	Dessert.findOneAndUpdate({ _id: req.params.id }, req.body).then(
-		prevRecord => {
+router.put('/:id', (req, res) => {
+	Dessert.findOneAndUpdate({ _id: req.params.id }, req.body)
+		.then(prevRecord => {
 			res.json(prevRecord);
-		}
-	);
+		})
+		.catch(err => console.error(err));
 });
 
 router.delete('/:id', (req, res) => {

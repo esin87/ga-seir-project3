@@ -1,5 +1,5 @@
 const express = require('express');
-const controller = require('./controllers/recipes');
+const controller = require('./controllers/controller');
 const parser = require('body-parser');
 const cors = require('cors');
 
