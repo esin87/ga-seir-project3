@@ -19,10 +19,17 @@ router.post('/', (req, res) => {
 });
 
 //get dessert by name
-router.get('/:title', (req, res) => {
+router.get('/titles/:title', (req, res) => {
 	const dessertTitle = req.params.title;
 	Dessert.findOne({ title: dessertTitle }).then(dessert => {
 		res.json(dessert);
+	});
+});
+
+//get desserts by category
+router.get('/categories/:category', (req, res) => {
+	Dessert.find({ category: req.params.category }).then(desserts => {
+		res.json(desserts);
 	});
 });
 
