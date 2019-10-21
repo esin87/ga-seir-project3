@@ -130,11 +130,14 @@
         "title": "Hay Stax",
         "category": "Others",
         "description": "Family Recipie",
-        "items": ["1 cup butterscoth chips", "1 cup pnut-butter", "1 cup mini marshmallows", ],
+        "items": ["1 cup butterscoth chips", "1 cup pnut-butter", "1 cup mini marshmallows", "1/2 cup Lachoy mini rice noodles"],
         "steps": [
-            "1. put pie shell on counter ",
-            "2. fill with cans of whipped cream",
-            "3. eat / throw at face of frenemy "
+            "1. melt down chips in large non stick skillet over med/low heat ",
+            "2. when melted reduce heat to low and stir in peanut butter",
+            "3. remove from heat and fold  in noodles ",
+            "4. stir in marshmallows",
+            "5. Scoop spoonfuls onto wax paper to dry",
+            "6. Let stand 1 hour"
         ],
         "image": ""
     }
