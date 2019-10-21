@@ -15,20 +15,17 @@
         ],
         "steps": [
             "1. preheat oven to 350 deg f",
-            "in mixer cream butter and shortening",
-            "add eggs one at a time",
-            "stir dry ingredients in a separate bowl",
-            "add dry ingredients and milk alternately to mixer",
-            "start and end with flour",
-            "add vanilla",
-            "pour into greased tube pan",
-            "bake for 65-95 minutes or until toothpick comes out clean from middle"
+            "2. in mixer cream butter and shortening",
+            "3. add eggs one at a time",
+            "4. stir dry ingredients in a separate bowl",
+            "5. add dry ingredients and milk alternately to mixer",
+            "6. start and end with flour",
+            "7. add vanilla",
+            "8. pour into greased tube pan",
+            "9. bake for 65-95 minutes or until toothpick comes out clean from middle"
         ],
         "image": "https://images-gmi-pmc.edge-generalmills.com/82b53a9e-a711-4697-957c-81a007c4dbd3.jpg"
     },
-
-
-
     {
         "title": "Cherry Pineapple Dump Cake",
         "category": "Cakes",
@@ -59,12 +56,14 @@
             "2. fill with cans of whipped cream",
             "3. eat / throw at face of frenemy "
         ],
-        "image": ""
-    }, {
+        "image": "https://www.seriouseats.com/images/2016/11/20161101-chocolate-cream-pie-vicky-wasik-16.jpg"
+    },
+    {
         "title": "Chocolate Pie",
         "category": "Pies",
         "description": "great for faces and clowns",
-        "items": ["1 pie crust shell ",
+        "items": [
+            "1 pie crust shell ",
             "3 cups heavy cream (just over a quart)",
             "1 & 1/2 cups semi-sweet chocolate chips",
             "1/2 tsp vanilla",
@@ -83,14 +82,41 @@
             "9. Shave / grate hershey bar on top of pie",
             "10. Serve immediately or return to freezer. (if frozen thaw 1 hour before serving)"
         ],
-        "image": ""
-    }, {
+        "image": "https://images-gmi-pmc.edge-generalmills.com/e8c5233a-3ecb-4ddf-be69-9c2b17b239e8.jpg"
+    },
+    {
         "title": "EZ-Brownies",
         "category": "Brownies",
         "description": "Brownies",
         "items": ["brownie mix box", "1 egg", "water", "oil"],
         "steps": ["1. Preheat oven to 350", "2. follow box directions"],
-        "image": ""
+        "image": "https://celebratingsweets.com/wp-content/uploads/2014/10/Homemade-Brownies-2.jpg"
+    },
+    {
+        "title": "Blondie Brownies",
+        "category": "Brownies",
+        "description": "Blondes have more fun - Brownies",
+        "items": [
+            "1 cup butter, melted",
+            "1 1/4 cup brown sugar",
+            "2 eggs",
+            "2 tsp vanilla",
+            "1/2 tsp salt",
+            "2 tsp baking powder",
+            "2 cups flour",
+            "1/2 cup chocolate chips (optional)"
+        ],
+        "steps": [
+            "1. Preheat oven to 350°. Line a 9×13 pan with tin foil, spray with nonstick spray. Set aside.",
+            "2. Combine the melted butter and brown sugar in a medium sized bowl.",
+            "3. Add in the eggs and vanilla. Mix well.",
+            "4. Add in the salt, baking powder, and flour. Mix until just combined.",
+            "5. Stir in any add-ins you’d like.",
+            "6. Pour the batter into the prepared 9×13 pan. Spread to cover the bottom of the pan.",
+            "7. Bake at 350° for 20-25 minutes or until barely golden brown. DO NOT OVER BAKE.",
+            "8. Remove from the oven, cool completely. Pull the blondies out of the pan using the aluminum foil once completely cool. Slice and serve."
+        ],
+        "image": "http://cdn3.craftsy.com/a/general/wp-content/uploads/2017/05/blondiescc-2.jpg"
     },
     {
         "title": "chocChip",
@@ -99,44 +125,127 @@
         "items": ["tube of choc chip dough"],
         "steps": [
             "1. Preheat oven to 350",
-            "2. put dough on pan",
-            "3. bake cookies",
-            "4. wait  ",
-            "5. let em cool ",
-            "6. serve with whipped cream"
+            "2. put dough on pan in small spoon size nuggets",
+            "3. bake cookies 10 minutes",
+            "4. let em cool and enjoy"
         ],
-        "image": ""
+        "image": "https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg"
     },
-
     {
-        "title": "Whipped Pasteries",
-        "category": "Pasteries",
-        "description": "great for faces and clowns",
-        "items": ["2 cans of whipped cream", "1 pie crust shell "],
+        "title": "Sugar Cookies",
+        "category": "Cookies",
+        "description": "easy suagr cookies",
+        "items": [
+            "2 & 3/4 cups all-purpose flour",
+            "1 tspn baking soda",
+            "1/2 tspn baking powder",
+            "1 cup butter softened"
+        ],
         "steps": [
-            "1. put pie shell on counter ",
-            "2. fill with cans of whipped cream",
-            "3. eat / throw at face of frenemy "
+            "1. Preheat oven to 375 degrees F (190 degrees C). In a small bowl, stir together flour, baking soda, and baking powder. Set aside.",
+            "2. In a large bowl, cream together the butter and sugar until smooth. Beat in egg and vanilla. Gradually blend in the dry ingredients. Roll rounded teaspoonfuls of dough into balls, and place onto ungreased cookie sheets.",
+            "3. Bake 8 to 10 minutes in the preheated oven, or until golden. Let stand on cookie sheet two minutes before removing to cool on wire racks."
         ],
-        "image": ""
+        "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/9/15/1/FNK_Chewy-Sugar-Cookies_s4x3.jpg.rend.hgtvcom.826.620.suffix/1442375395564.jpeg"
     },
     {
-        "title": "Whipped candy",
+        "title": "Apple Strudel",
+        "category": "Pasteries",
+        "description": "trick the kids into eatng apples",
+        "items": [
+            "4 'granny Smith' apples peeled and cored (1 coarsely shredded 3 sliced",
+            "1 cup b rown sugar ",
+            "1 cup golden rasins",
+            "1 sheet frozen puff pastry (thawed)",
+            "1 egg",
+            "1/4 cup milk"
+        ],
+        "steps": [
+            "1. Preheat oven to 400 degrees F (200 degrees C). Line a baking sheet with parchment paper. ",
+            "2. Place apples in a large bowl. Stir in brown sugar and golden raisins; set aside. Place puff pastry on baking sheet. Roll lightly with a rolling pin. Arrange apple filling down the middle of the pastry lengthwise. Fold the pastry lengthwise around the mixture. Seal edges of pastry by using a bit of water on your fingers, and rubbing the pastry edges together.",
+            "3. Whisk egg and milk together, and brush onto top of pastry. ",
+            "4. Bake in preheated oven for 35 to 40 minutes, or until golden brown."
+        ],
+        "image": "https://www.cscassets.com/recipes/wide_cknew/wide_24002.jpg"
+    },
+    {
+        "title": "Strawberry Napoleans",
+        "category": "Pasteries",
+        "description": "Layers of light, flaky pastry sandwich creamy vanilla filling and fresh strawberries. This easily-assembled dessert looks like you fussed for hours!",
+        "items": [
+            "1 sheet puff pastry, thawed according to package directions",
+            "1 quart fresh strawberries, sliced",
+            "2 tablespoons sugar",
+            "1/4 teaspoon vanilla extract",
+            "1 cup cold whole milk",
+            "1 package (3.4 ounces) instant vanilla pudding mix",
+            "2 cups whipped topping",
+            "1/2 cup semisweet chocolate chips"
+        ],
+        "steps": [
+            "1. Preheat oven to 400°. Unfold thawed puff pastry on cutting board. With a sharp knife, cut pastry into nine squares. Place on baking sheet coated with cooking spray. Bake 10-15 minutes or until golden brown. Remove from pan to wire rack to cool completely.",
+            "2. In a large bowl, combine the strawberries, sugar and vanilla; set aside. In another bowl, whisk milk and pudding mix for two minutes. Let stand for 2 minutes or until soft set. Stir in whipped topping and until thoroughly blended. Cover and refrigerate.",
+            "3. To assemble, split puff pastry squares horizontally for a total of 18 squares. Set aside six tops. Place six of the remaining puff pastry pieces on individual serving plates. Spread about 1/4 cup pudding mixture over each pastry square. Top with a spoonful of strawberries and another piece of puff pastry. Spread remaining pudding mixture over pastry pieces. Top with remaining strawberries and reserved pastry tops.",
+            "4. In a microwave, melt chocolate chips; stir until smooth. Cool slightly. Transfer chocolate to a small, heavy-duty plastic bag. Cut a tiny corner from bag; squeeze chocolate over napoleons."
+        ],
+        "image": "https://www.tasteofhome.com/wp-content/uploads/2017/10/exps38498_THCS1115476D68-1.jpg"
+    },
+    {
+        "title": "Cream Cheese Candies",
         "category": "Candies",
         "description": "great for kids",
-        "items": ["1 cans of whipped cream"],
-        "steps": [
-            "1. put whipped cream into ice cude trays ",
-            "2. freeze it",
-            "3. enjoy ?"
+        "items": [
+            "1/4 cup unsalted butter",
+            "8 oz cream cheese (1 package)",
+            "4-5 cups powdered sugar ",
+            "1 tsp flavoring - peppermint, vanilla butter, lemon, banana, etc.",
+            "Food coloring - your color choice"
         ],
-        "image": ""
+        "steps": [
+            "1. Melt butter in a saucepan over medium heat. Add cream cheese and stir till softened and partially melted into the butter.",
+            "2. Turn off the heat. Add 4 cups of the powdered sugar to the pan and stir to form a soft sugary dough. If the dough seems to liquid or loose, slowly add more sugar till it firms up-- it should be firm enough to mold and shape. If making only one flavor, add 1 tsp of flavoring to the dough (or more to taste) and stir well.",
+            "3. Divide dough into four equal portions. If making more than one flavor, add 1/4 tsp of flavoring (or more to taste) to each separate portion of dough and stir well.",
+            "4. Color the dough by adding a few drops of food coloring to each portion of dough. For a pastel color, use 2-3 drops of food coloring per portion. For more vibrant color, add more drops.",
+            "5. Shape the candies into round disks of about 1/2 tbsp each. Score them on top with a fork, if desired.",
+            "6. Allow to dry on parchment or wax paper for a few hours until the candies set. Store candies in a sealed container in the refrigerator.",
+            "7. Enjoy!"
+        ],
+        "image": "https://toriavey.com/images/2011/04/IMG_1021.jpg"
+    },
+    {
+        "title": "candy apples",
+        "category": "Candies",
+        "description": "great for kids",
+        "items": [
+            "12 small red or green apples (any variety)",
+            "12 lollipop or popsicle sticks",
+            "3 cups sugar",
+            "1/2 cup light corn syrup",
+            "1 cup water",
+            "1/2 teaspoon red food coloring",
+            "Equipment: candy thermometer"
+        ],
+        "steps": [
+            "1. Boil 6 cups water with 1 tablespoon white vinegar in large pot. Quickly dip the apples in the boiling mixture for 5 seconds then thoroughly dry them. ",
+            "2. Insert the lollipop sticks or popsicle sticks so that they are firmly positioned in the apples. Set the apples aside on a cookie sheet lined with wax paper coated with cooking spray.",
+            "3. Combine the sugar, corn syrup and water in a heavy-bottomed saucepan over medium heat. Bring it to a boil and cook the mixture until a candy thermometer reaches 300ºF (the hard crack stage).",
+            "4. Remove the candy mixture from the heat and carefully stir in the red food coloring. (It may splash, so stand back. And you may have to add more than the designated 1/2 teaspoon, depending on the quality and strength of your food coloring.)",
+            "5. One by one, carefully dip the apples into the candy mixture, swirling to coat them thoroughly and allowing any excess to drip back into the pan. Transfer the coated apples to the prepared cookie sheet and allow them to cool until the candy has fully hardened.",
+            "6. Serving the apples in colorful cupcake wrappers is a fun way to jazz up your Halloween party spread.",
+            "7. If the candy mixture gets too hard during the dipping process, simply re-heat it over medium heat and continue coating the apples. "
+        ],
+        "image": "https://www.favfamilyrecipes.com/wp-content/uploads/2018/08/toffee-apples-2.jpg"
     },
     {
         "title": "Hay Stax",
         "category": "Others",
         "description": "Family Recipie",
-        "items": ["1 cup butterscoth chips", "1 cup pnut-butter", "1 cup mini marshmallows", "1/2 cup Lachoy mini rice noodles"],
+        "items": [
+            "1 cup butterscoth chips",
+            "1 cup pnut-butter",
+            "1 cup mini marshmallows",
+            "1/2 cup Lachoy mini rice noodles"
+        ],
         "steps": [
             "1. melt down chips in large non stick skillet over med/low heat ",
             "2. when melted reduce heat to low and stir in peanut butter",
@@ -145,6 +254,37 @@
             "5. Scoop spoonfuls onto wax paper to dry",
             "6. Let stand 1 hour"
         ],
-        "image": ""
+        "image": "https://shewearsmanyhats.com/wp-content/uploads/2011/10/haystacks-recipe-featuredb.jpg"
+    },
+    {
+        "title": "Pumpkin Pie Rice Krispies Treats",
+        "category": "Others",
+        "description": "Ditch the pie dough in favor of cereal with this quick and easy recipe for Pumpkin Pie Rice Krispies Treats!",
+        "items": [
+            "for crust 1 1/2 Tablespoons unsalted butter",
+            "for crust 2 cups (about 16) marshmallows",
+            "for crust 1/2 teaspoon vanilla extract",
+            "for crust 3 cups Rice Krispies cereal",
+            "for filling 2 1/2 Tablespoons unsalted butter",
+            "for filling 1 teaspoon pumpkin pie spice",
+            "for filling 3 cups (about 24) marshmallows",
+            "for filling 2 teaspoons orange food coloring",
+            "for filling 4 cups Rice Krispies cereal",
+            "for filling Whipped cream, for decorating (optional)"
+        ],
+        "steps": [
+            " Make Crust:",
+            "c1. Coat an 8-inch round cake pan with cooking spray. Set it aside.",
+            "c2. Add the butter to a medium saucepan set over medium-low heat. Once the butter has melted, add the marshmallows and cook, stirring constantly, until the marshmallows are melted. ",
+            "c3. Stir in the vanilla extract and then the Rice Krispies cereal until the cereal is well coated.",
+            "c4. Transfer the mixture into the prepared cake pan an press it firmly against the inside edge of the pan to form about a 1-inch crust.",
+            "c5. Let it cool while you prepare the filling. ",
+            "Make Filling:",
+            "f1. Add the butter and pumpkin pie spice to a medium saucepan set over medium-low heat. Once the mixture has melted, add the marshmallows and cook, stirring constantly, until the marshmallows are melted.",
+            "f2. Stir in the orange food coloring then stir in the Rice Krispies cereal until the cereal is well coated.",
+            "f3. Press the mixture firmly inside the crust border, pushing it down to compact it, and allow it to cool completely in the pan.",
+            "f4. Once cooled, place a serving plate on top of the pan and invert the pan. Slice the pie into wedges and top with a dollop of whipped cream (optional)."
+        ],
+        "image": "https://www.justataste.com/wp-content/uploads/2015/10/pumpkin-pie-rice-krispies-treats_collage.jpg"
     }
 ]
