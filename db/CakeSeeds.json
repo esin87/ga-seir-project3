@@ -1,5 +1,5 @@
 [{
-        "title": "Pound Cake",
+        "title": "Paula DeanPound Cake",
         "category": "Cake",
         "description": "Paula Dean Deliciousness",
         "items": [
@@ -39,12 +39,13 @@
         ],
         "steps": [
             "1. preheat oven to 350 deg f",
-            "2 . mix ingredients",
+            "2. mix ingredients",
             "3. pour into greased tube pan",
-            "bake for 65-95 minutes or until toothpick comes out clean from middle"
+            "4. bake for 65-95 minutes or until toothpick comes out clean from middle"
         ],
         "image": "https://revolutionarypie.files.wordpress.com/2013/05/img_1491.jpg"
     },
+
     {
         "title": "Cherry Pineapple Dump Cake",
         "category": "Cake",
