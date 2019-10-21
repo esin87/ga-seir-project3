@@ -67,6 +67,18 @@
         "image": "https://www.gonnawantseconds.com/wp-content/uploads/2019/12/Cherry-Pineapple-Dump-Cake-7-2.jpg"
     },
     {
+        "title": "Whipped Pie",
+        "category": "Pies",
+        "description": "great for faces and clowns",
+        "items": ["2 cans of whipped cream", "1 pie crust shell "],
+        "steps": [
+            "1. put pie shell on counter ",
+            "2. fill with cans of whipped cream",
+            "3. eat / throw at face of frenemy "
+        ],
+        "image": ""
+    },
+    {
         "title": "EZ-Brownies",
         "category": "Brownies",
         "description": "Brownies",
@@ -89,18 +101,6 @@
         ],
         "image": ""
     },
-    {
-        "title": "Whipped Pie",
-        "category": "Pies",
-        "description": "great for faces and clowns",
-        "items": ["2 cans of whipped cream", "1 pie crust shell "],
-        "steps": [
-            "1. put pie shell on counter ",
-            "2. fill with cans of whipped cream",
-            "3. eat / throw at face of frenemy "
-        ],
-        "image": ""
-    },
 
     {
         "title": "Whipped Pasteries",
@@ -115,22 +115,22 @@
         "image": ""
     },
     {
-        "title": "Whipped Pasteries",
+        "title": "Whipped candy",
         "category": "Candies",
-        "description": "great for faces and clowns",
-        "items": ["2 cans of whipped cream", "1 pie crust shell "],
+        "description": "great for kids",
+        "items": ["1 cans of whipped cream"],
         "steps": [
-            "1. put pie shell on counter ",
-            "2. fill with cans of whipped cream",
-            "3. eat / throw at face of frenemy "
+            "1. put whipped cream into ice cude trays ",
+            "2. freeze it",
+            "3. enjoy ?"
         ],
         "image": ""
     },
     {
-        "title": "Whipped Pasteries",
+        "title": "Hay Stax",
         "category": "Others",
-        "description": "great for faces and clowns",
-        "items": ["2 cans of whipped cream", "1 pie crust shell "],
+        "description": "Family Recipie",
+        "items": ["1 cup butterscoth chips", "1 cup pnut-butter", "1 cup mini marshmallows", ],
         "steps": [
             "1. put pie shell on counter ",
             "2. fill with cans of whipped cream",
