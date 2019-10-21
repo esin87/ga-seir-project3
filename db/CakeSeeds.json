@@ -1,6 +1,6 @@
 [{
         "title": "Paula DeanPound Cake",
-        "category": "Cake",
+        "category": "Cakes",
         "description": "Paula Dean Deliciousness",
         "items": [
             "1/2 pound butter",
@@ -29,7 +29,7 @@
 
     {
         "title": "Pound Cake Old School",
-        "category": "Cake",
+        "category": "Cakes",
         "description": "Old School Style",
         "items": [
             "1 pound butter",
@@ -48,7 +48,7 @@
 
     {
         "title": "Cherry Pineapple Dump Cake",
-        "category": "Cake",
+        "category": "Cakes",
         "description": "Easy and Tasty",
         "items": [
             "21 oz can cherry pie filling",
@@ -65,33 +65,20 @@
             "6. serve with whipped cream"
         ],
         "image": "https://www.gonnawantseconds.com/wp-content/uploads/2019/12/Cherry-Pineapple-Dump-Cake-7-2.jpg"
-    }, {
-        "title": "Brownies",
+    },
+    {
+        "title": "EZ-Brownies",
         "category": "Brownies",
         "description": "Brownies",
-        "items": [
-            "brownie mix box",
-            "1 egg",
-            "water",
-            "oil"
-        ],
-        "steps": [
-            "1. Preheat oven to 350",
-            "2. Dump cherry pie filling and crushed pineapple into 13 x 9 baking dish stir together",
-            "3. Sprinkle cake mix over top of fruit",
-            "4. Slice butter sticks into small chunks and distribute evenly over top of cake mix on top of fruit ",
-            "5. Bake until top is brown and bubbly (45 minutes to an hour)",
-            "6. serve with whipped cream"
-        ],
+        "items": ["brownie mix box", "1 egg", "water", "oil"],
+        "steps": ["1. Preheat oven to 350", "2. follow box directions"],
         "image": ""
-
-    }, {
+    },
+    {
         "title": "chocChip",
         "category": "Cookies",
         "description": "choc chip cookiezzzz",
-        "items": [
-            "tube of choc chip dough"
-        ],
+        "items": ["tube of choc chip dough"],
         "steps": [
             "1. Preheat oven to 350",
             "2. put dough on pan",
@@ -101,6 +88,54 @@
             "6. serve with whipped cream"
         ],
         "image": ""
+    },
+    {
+        "title": "Whipped Pie",
+        "category": "Pies",
+        "description": "great for faces and clowns",
+        "items": ["2 cans of whipped cream", "1 pie crust shell "],
+        "steps": [
+            "1. put pie shell on counter ",
+            "2. fill with cans of whipped cream",
+            "3. eat / throw at face of frenemy "
+        ],
+        "image": ""
+    },
 
+    {
+        "title": "Whipped Pasteries",
+        "category": "Pasteries",
+        "description": "great for faces and clowns",
+        "items": ["2 cans of whipped cream", "1 pie crust shell "],
+        "steps": [
+            "1. put pie shell on counter ",
+            "2. fill with cans of whipped cream",
+            "3. eat / throw at face of frenemy "
+        ],
+        "image": ""
+    },
+    {
+        "title": "Whipped Pasteries",
+        "category": "Candies",
+        "description": "great for faces and clowns",
+        "items": ["2 cans of whipped cream", "1 pie crust shell "],
+        "steps": [
+            "1. put pie shell on counter ",
+            "2. fill with cans of whipped cream",
+            "3. eat / throw at face of frenemy "
+        ],
+        "image": ""
+    },
+    {
+        "title": "Whipped Pasteries",
+        "category": "Others",
+        "description": "great for faces and clowns",
+        "items": ["2 cans of whipped cream", "1 pie crust shell "],
+        "steps": [
+            "1. put pie shell on counter ",
+            "2. fill with cans of whipped cream",
+            "3. eat / throw at face of frenemy "
+        ],
+        "image": ""
     }
 ]
