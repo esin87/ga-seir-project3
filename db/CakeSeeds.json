@@ -1,5 +1,5 @@
 [{
-        "title": "Pound Cake",
+        "title": "Paula DeanPound Cake",
         "category": "Cake",
         "description": "Paula Dean Delicousness",
         "items": [
@@ -15,14 +15,14 @@
         ],
         "steps": [
             "1. preheat oven to 350 deg f",
-            "in mixer cream butter and shortening",
-            "add eggs one at a time",
-            "stir dry ingredients in a seperate bowl",
-            "add dry ingredients and milk alternately to mixer",
-            "start and end with flour",
-            "add vanilla",
-            "pour into greased tube pan",
-            "bake for 65-95 minutes or until toothpick comes out clean from middle"
+            "2. in mixer cream butter and shortening",
+            "3. add eggs one at a time",
+            "4. stir dry ingredients in a seperate bowl",
+            "5. add dry ingredients and milk alternately to mixer",
+            "6. start and end with flour",
+            "7. add vanilla",
+            "8. pour into greased tube pan",
+            "9. bake for 65-95 minutes or until toothpick comes out clean from middle"
         ],
         "image": "https://images-gmi-pmc.edge-generalmills.com/82b53a9e-a711-4697-957c-81a007c4dbd3.jpg"
     },
@@ -39,12 +39,13 @@
         ],
         "steps": [
             "1. preheat oven to 350 deg f",
-            "2 . mix ingredients",
+            "2. mix ingredients",
             "3. pour into greased tube pan",
-            "bake for 65-95 minutes or until toothpick comes out clean from middle"
+            "4. bake for 65-95 minutes or until toothpick comes out clean from middle"
         ],
         "image": "https://revolutionarypie.files.wordpress.com/2013/05/img_1491.jpg"
     },
+
     {
         "title": "Cherry Pineapple Dump Cake",
         "category": "Cake",
