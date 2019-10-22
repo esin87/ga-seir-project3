@@ -57,7 +57,7 @@ describe("POST / make a new one check check", () => {
             .end((error, response) => {
                 console.log(response.body.length);
                 expect(response.body.length).to.equal(15);
-                /// 15 is one more than seed data - works after run db/cakeseed.js
+                /// 15 is one more than seed data - works after node to reseed db/cakeseed.js
                 done();
             });
     });
