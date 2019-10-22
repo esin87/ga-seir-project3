@@ -7,11 +7,9 @@ const api = supertest("http://localhost:3000");
 
 //////////////////////////////////////////////////////
 /// tests for crud functions
-// cd into db in terminal and node cakeseed.js 
+// cd into db in terminal and node cakeseed.js
 //  each time before running tests to reset db data to original.
 //////////////////////////////////////////////////////
-
-
 
 /// checking r of crud - read
 ///router.get
@@ -117,6 +115,22 @@ describe("DELETE //titles/:title", () => {
             .end((error, response) => {
                 expect(response.body.length).to.equal(14);
                 // one less than above with add - change to 13 if create test commented out
+                done();
+            });
+    });
+});
+
+//// check get by category return 2 pies since only 2 in seed data
+
+describe("GET /categories/:category", () => {
+    it("should return our pie desserts length which is 2", done => {
+        api
+            .get("/categories/Pies")
+            .set("Accept", "application/json")
+            .end((error, response) => {
+                console.log("check here for pie length");
+                console.log(response.body.length);
+                expect(response.body.length).to.equal(2);
                 done();
             });
     });
