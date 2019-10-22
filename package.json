@@ -27,6 +27,7 @@
     "mongo": "^0.1.0",
     "mongod": "^2.0.0",
     "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
     "nodemon": "^1.19.4",
     "supertest": "^4.0.2"
   }
