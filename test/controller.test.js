@@ -9,13 +9,42 @@ const api = supertest("http://localhost:3000");
 /// checking r of crud - read
 ///router.get
 
-describe("Get /desserts", () => {
-    it("Should be a page return 200 response", done => {
+describe("Get /", () => {
+    // it("Should be a page return 200 response", done => {
+    // 	api
+    // 		.get("/")
+    // 		.set("Accept", "appliaction/json")
+    // 		.end((error, response) => {
+    // 			console.log(response.body);
+    //             expect(response.body).to.be.an("array");
+    //             done();
+    // 		});
+    // });
+
+    it("should return an array of objects that position 0 has a field called 'url' ", done => {
         api
-            .get("/desserts")
-            .set("Accept", "appliaction/json")
+            .get("/")
+            .set("Accept", "application/json", )
             .end((error, response) => {
-                expect(response.body).to.be.an("array");
+                expect(response.body).to.have.property("url");
+                done();
+            });
+    });
+});
+
+//  deep r of crud - read with attributes
+
+describe("GET /titles/:title", () => {
+    it("should return a dessert by name (title) with correct fields", done => {
+        api
+            .get("/titles/EZ-Brownies")
+            .set("Accept", "application/json")
+            .end((error, response) => {
+                expect(response.body).to.have.property("_id");
+                expect(response.body).to.have.property("title");
+                expect(response.body).to.have.property("category");
+                expect(response.body).to.have.property("description");
+                done();
             });
     });
 });
@@ -29,7 +58,7 @@ describe("Get /desserts", () => {
 /// checking d of crud - delete it ... omg that 📷 is sooo baddd deelllete iiitttttt !!
 //router.delete
 
-// describe("DELETE /candies/:id", () => {
+// describe("DELETE /:id", () => {
 //     before(done => {
 //         api
 //           .delete("/candies/:1")
