@@ -8,30 +8,6 @@ const api = supertest("http://localhost:3000");
 
 /// checking r of crud - read
 ///router.get
-
-describe("Get /", () => {
-    // it("Should be a page return 200 response", done => {
-    // 	api
-    // 		.get("/")
-    // 		.set("Accept", "appliaction/json")
-    // 		.end((error, response) => {
-    // 			console.log(response.body);
-    //             expect(response.body).to.be.an("array");
-    //             done();
-    // 		});
-    // });
-
-    it("should return an array of objects that position 0 has a field called 'url' ", done => {
-        api
-            .get("/")
-            .set("Accept", "application/json", )
-            .end((error, response) => {
-                expect(response.body).to.have.property("url");
-                done();
-            });
-    });
-});
-
 //  deep r of crud - read with attributes
 
 describe("GET /titles/:title", () => {
@@ -40,6 +16,7 @@ describe("GET /titles/:title", () => {
             .get("/titles/EZ-Brownies")
             .set("Accept", "application/json")
             .end((error, response) => {
+                console.log(response.body);
                 expect(response.body).to.have.property("_id");
                 expect(response.body).to.have.property("title");
                 expect(response.body).to.have.property("category");
@@ -51,6 +28,56 @@ describe("GET /titles/:title", () => {
 
 //// checking c of crud - create
 ///router.post
+
+describe("POST / make a new one check check", () => {
+    before(done => {
+        api
+            .post("/create")
+            .set("Accept", "application/json")
+            .send({
+                title: "Test-dessert-name",
+                category: "Brownies",
+                description: "Test-Brownies-testing",
+                items: ["test test", "1 egg", "water", "oil"],
+                steps: ["1. Preheat oven to 350", "2. test test 123 test"],
+                image: "https://celebratingsweets.com/wp-content/uploads/2014/10/Homemade-Brownies-2.jpg",
+            })
+            .end(done);
+    });
+
+    it("should add a dessert object to the dessert db and return it", done => {
+        api
+            .get("/")
+            .set("Accept", "application/json")
+            .end((error, response) => {
+                console.log(response.body.length);
+                expect(response.body.length).to.equal(15);
+                done();
+            });
+    });
+});
+
+
+/// can we get the new one we make 
+
+describe("GET /titles/:title", () => {
+    it("should return our new dessert by name (title) with all fields", done => {
+        api
+            .get("/titles/Test-dessert-name")
+            .set("Accept", "application/json")
+            .end((error, response) => {
+                console.log(response.body);
+                expect(response.body).to.have.property("_id");
+                expect(response.body).to.have.property("title");
+                expect(response.body).to.have.property("category");
+                expect(response.body).to.have.property("description");
+                expect(response.body).to.have.property("items");
+                expect(response.body).to.have.property("steps");
+                expect(response.body).to.have.property("image");
+                done();
+            });
+    });
+});
 
 ///checking u of crud  - update
 ///router.put
