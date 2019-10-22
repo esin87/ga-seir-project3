@@ -26,7 +26,7 @@ describe("GET /titles/:title", () => {
     });
 });
 
-//// checking c of crud - create
+//// checking c of crud - create - we have 14 files in our seed data - 2 per category
 ///router.post
 
 describe("POST / make a new one check check", () => {
@@ -52,6 +52,7 @@ describe("POST / make a new one check check", () => {
             .end((error, response) => {
                 console.log(response.body.length);
                 expect(response.body.length).to.equal(15);
+                /// 15 is one more than seed data - works after run db/cakeseed.js
                 done();
             });
     });
