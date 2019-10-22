@@ -11,11 +11,14 @@ router.get('/', (req, res) => {
 });
 
 //create a new dessert
-router.post('/', (req, res) => {
-	const newDessert = req.body;
-	Dessert.create(newDessert).then(created => {
-		res.json(created);
-	});
+router.post('/create', (req, res) => {
+	Dessert.create(req.body)
+		.then(dessert => {
+			Dessert.find({}).then(desserts => {
+				res.json(desserts);
+			});
+		})
+		.catch(err => console.error(err));
 });
 
 //get dessert by name
@@ -34,17 +37,23 @@ router.get('/categories/:category', (req, res) => {
 });
 
 //update dessert
-router.put('/:title', (req, res) => {
-	Dessert.findOneAndUpdate({ title: req.params.title }, req.body)
-		.then(prevRecord => {
-			res.json(prevRecord);
+router.put('/edit/:id', (req, res) => {
+	Dessert.findOneAndUpdate({ _id: req.params.id }, req.body, {
+		new: true
+	})
+		.then(desserts => {
+			Dessert.find({}).then(desserts => {
+				res.json(desserts);
+			});
 		})
 		.catch(err => console.error(err));
 });
 
-router.delete('/:id', (req, res) => {
-	Dessert.findOneAndDelete({ _id: req.params.id }).then(deleted => {
-		res.json(deleted);
+router.delete('/titles/:title', (req, res) => {
+	Dessert.findOneAndDelete({ title: req.params.title }).then(desserts => {
+		Dessert.find({}).then(desserts => {
+			res.json(desserts);
+		});
 	});
 });
 
