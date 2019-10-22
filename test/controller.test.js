@@ -4,7 +4,14 @@ const supertest = require("supertest");
 const api = supertest("http://localhost:3000");
 
 /// TESTING
+
+//////////////////////////////////////////////////////
 /// tests for crud functions
+// cd into db in terminal and node cakeseed.js 
+//  each time before running tests to reset db data to original.
+//////////////////////////////////////////////////////
+
+
 
 /// checking r of crud - read
 ///router.get
@@ -58,8 +65,7 @@ describe("POST / make a new one check check", () => {
     });
 });
 
-
-/// can we get the new one we make 
+/// can we get the new one we make
 
 describe("GET /titles/:title", () => {
     it("should return our new dessert by name (title) with all fields", done => {
@@ -86,20 +92,32 @@ describe("GET /titles/:title", () => {
 /// checking d of crud - delete it ... omg that 📷 is sooo baddd deelllete iiitttttt !!
 //router.delete
 
-// describe("DELETE /:id", () => {
-//     before(done => {
-//         api
-//           .delete("/candies/:1")
-//           .set("Accept", "application/json")
-//           .end(done)
-//       });
-//       it("should remove a candy object from the collection candies ", done => {
-//         api
-//           .get("/candies")
-//           .set("Accept", "application/json")
-//           .end((error, response) => {
-//             expect(response.body.length).to.equal(3);
-//             done()
-//           });
-//       });
-// });
+///
+//   { items: [ 'brownie mix box', '1 egg', 'water', 'oil' ],
+//   steps: [ '1. Preheat oven to 350', '2. follow box directions' ],
+//   _id: '5daf2748aaeb3854dcc24dd8',
+//   title: 'EZ-Brownies',
+//   category: 'Brownies',
+//   description: 'Brownies',
+//   image: 'https://celebratingsweets.com/wp-content/uploads/2014/10/Homemade-Brownies-2.jpg',
+//   __v: 0 }
+//
+
+describe("DELETE //titles/:title", () => {
+    before(done => {
+        api
+            .delete("/titles/EZ-Brownies")
+            .set("Accept", "application/json")
+            .end(done);
+    });
+    it("should remove the brownie object from the dessert db ", done => {
+        api
+            .get("/")
+            .set("Accept", "application/json")
+            .end((error, response) => {
+                expect(response.body.length).to.equal(14);
+                // one less than above with add - change to 13 if create test commented out
+                done();
+            });
+    });
+});
