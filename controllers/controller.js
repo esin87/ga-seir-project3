@@ -34,8 +34,8 @@ router.get('/categories/:category', (req, res) => {
 });
 
 //update dessert
-router.put('/:id', (req, res) => {
-	Dessert.findOneAndUpdate({ _id: req.params.id }, req.body)
+router.put('/:title', (req, res) => {
+	Dessert.findOneAndUpdate({ title: req.params.title }, req.body)
 		.then(prevRecord => {
 			res.json(prevRecord);
 		})
