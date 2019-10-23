@@ -42,8 +42,6 @@ router.get("/dessert/:id", (req, res) => {
 
 
 
-
-
 //get desserts by category
 router.get('/categories/:category', (req, res) => {
     Dessert.find({ category: req.params.category }).then(desserts => {
