@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "node_modules/.bin/mocha"
+        "test": "node_modules/.bin/mocha",
+        "start": "node index.js"
     },
     "repository": {
         "type": "git",
@@ -21,6 +22,7 @@
         "chai": "^4.2.0",
         "cors": "^2.8.5",
         "express": "^4.17.1",
+        "heroku": "^7.33.3",
         "lodash": "^4.17.15",
         "method-override": "^3.0.0",
         "mocha": "^6.2.2",
