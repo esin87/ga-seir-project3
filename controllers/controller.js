@@ -1,17 +1,17 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
-const Dessert = require('../models/Dessert');
+const Dessert = require("../models/Dessert");
 
 //retrieve all the desserts
-router.get('/', (req, res) => {
+router.get("/", (req, res) => {
     Dessert.find({}).then(desserts => {
         res.json(desserts);
     });
 });
 
 //create a new dessert
-router.post('/create', (req, res) => {
+router.post("/create", (req, res) => {
     Dessert.create(req.body)
         .then(dessert => {
             Dessert.find({}).then(desserts => {
@@ -21,16 +21,14 @@ router.post('/create', (req, res) => {
         .catch(err => console.error(err));
 });
 
-//get dessert by name - 
+//get dessert by name -
 // should use get by id in case 2 titles the same
-router.get('/titles/:title', (req, res) => {
+router.get("/titles/:title", (req, res) => {
     const dessertTitle = req.params.title;
     Dessert.findOne({ title: dessertTitle }).then(dessert => {
         res.json(dessert);
     });
 });
-
-
 
 /// get by id
 router.get("/dessert/:id", (req, res) => {
@@ -40,19 +38,17 @@ router.get("/dessert/:id", (req, res) => {
     });
 });
 
-
-
 //get desserts by category
-router.get('/categories/:category', (req, res) => {
+router.get("/categories/:category", (req, res) => {
     Dessert.find({ category: req.params.category }).then(desserts => {
         res.json(desserts);
     });
 });
 
 //update dessert - by id
-router.put('/edit/:id', (req, res) => {
+router.put("/edit/:id", (req, res) => {
     Dessert.findOneAndUpdate({ _id: req.params.id }, req.body, {
-            new: true
+            new: true,
         })
         .then(desserts => {
             Dessert.find({}).then(desserts => {
@@ -61,8 +57,14 @@ router.put('/edit/:id', (req, res) => {
         })
         .catch(err => console.error(err));
 });
-
-
+//delete by ID
+router.delete("/:id", (req, res) => {
+    Dessert.findOneAndDelete({ _id: req.params.id }).then(desserts => {
+        Dessert.find({}).then(desserts => {
+            res.json(desserts);
+        });
+    });
+});
 
 // delete by title
 // should delete by id in case 2 same name
@@ -83,15 +85,13 @@ router.delete("/dessert/:id", (req, res) => {
     });
 });
 
-
-router.delete('/titles/:id', (req, res) => {
+router.delete("/titles/:id", (req, res) => {
     Dessert.findOneAndDelete({ _id: req.params.id }).then(desserts => {
         Dessert.find({}).then(desserts => {
             res.json(desserts);
         });
     });
 });
-
 
 router.delete("/:id", (req, res) => {
     Dessert.findOneAndDelete({ _id: req.params.id }).then(desserts => {
@@ -100,10 +100,6 @@ router.delete("/:id", (req, res) => {
         });
     });
 });
-
-
-
-
 
 //keep last
 module.exports = router;
