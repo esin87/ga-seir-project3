@@ -32,7 +32,7 @@ router.get('/titles/:title', (req, res) => {
 
 
 
-/// by id
+/// get by id
 router.get("/dessert/:id", (req, res) => {
     const dessertID = req.params.id;
     Dessert.findOne({ _id: dessertID }).then(dessert => {
@@ -75,8 +75,25 @@ router.put('/edit/:id', (req, res) => {
 //     });
 // });
 
+router.delete("/dessert/:id", (req, res) => {
+    Dessert.findOneAndDelete({ _id: req.params.id }).then(desserts => {
+        Dessert.find({}).then(desserts => {
+            res.json(desserts);
+        });
+    });
+});
 
-router.delete('/:id', (req, res) => {
+
+router.delete('/titles/:id', (req, res) => {
+    Dessert.findOneAndDelete({ _id: req.params.id }).then(desserts => {
+        Dessert.find({}).then(desserts => {
+            res.json(desserts);
+        });
+    });
+});
+
+
+router.delete("/:id", (req, res) => {
     Dessert.findOneAndDelete({ _id: req.params.id }).then(desserts => {
         Dessert.find({}).then(desserts => {
             res.json(desserts);
