@@ -61,8 +61,14 @@ router.put('/edit/:id', (req, res) => {
         })
         .catch(err => console.error(err));
 });
-
-
+//delete by ID
+router.delete('/:id', (req, res) => {
+    Dessert.findOneAndDelete({ _id: req.params.id }).then(desserts => {
+        Dessert.find({}).then(desserts => {
+            res.json(desserts);
+        });
+    });
+});
 
 // delete by title
 // should delete by id in case 2 same name
@@ -74,19 +80,6 @@ router.put('/edit/:id', (req, res) => {
 //         });
 //     });
 // });
-
-
-router.delete('/:id', (req, res) => {
-    Dessert.findOneAndDelete({ _id: req.params.id }).then(desserts => {
-        Dessert.find({}).then(desserts => {
-            res.json(desserts);
-        });
-    });
-});
-
-
-
-
 
 //keep last
 module.exports = router;
