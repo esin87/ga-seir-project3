@@ -111,3 +111,13 @@ The diagram below shows the overall architecture of the backend of our applicati
 Please drop any feedback into our issues page, and thanks for visiting our page!
 
 ![Kenny Log-Ins Cake](./planning-info/pictures/ken-cake1.png)
+
+
+*****
+
+__Hosted on 2 seperate Repos__
+
+
+current: back-end _-_ https://github.com/esin87/ga-seir-project3
+
+other: front-end _-_ https://github.com/esin87/ga-seir-project3-frontend
